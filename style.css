@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    font-size: 8pt;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+table, td, th {
+    border: 1px #000000 solid;
+    border-collapse: collapse;
+    padding: 1px 2px;
+}
+
+div.outer {
+    border: 1px #000000 solid;
+    width: 200mm;
+    margin: 0px;
+}
+
+div.pagebreak {
+    page-break-before: always;
+}
+
+div.informations {
+    margin-bottom: 5mm;
+}
+
+div.optionals {
+    page-break-inside: avoid; 
+    margin-bottom: 5mm;
+}
+
+div.documenttitle {
+    margin-top: 50mm;
+    margin-bottom: 50mm;
+}
+
+div.documenttitle h1 {
+    text-align: center;
+    font-size: 48pt;
+    padding-top: 50mm;
+}
+
+div.documenttitle h2 {
+    text-align: center;
+    font-size: 24pt;
+    padding-top: 10mm;
+}
+
+div.documenttitle h3 {
+    text-align: center;
+    font-size: 14pt;
+    padding-top: 30mm;
+}
+
+h2.pagetitle {
+    margin: 0px;
+    margin-bottom: 5mm;
+    padding: 0px;
+}
+
+table.tables, table.headers, table.columns {
+    width: 100%;
+}
+
+.headers th.text-column{
+    width: 12%;
+    text-align: center;
+}
+
+.headers td.date-column{
+    width: 15%;
+    text-align: center;
+}
+
+th.number-column {
+    width: 6mm;
+}
+
+th.yn-column {
+    width: 8mm;
+}
+
+th.text-column{
+    width: 35mm;
+}
+
+.shortchar {
+    text-align: center;    
+}
+
